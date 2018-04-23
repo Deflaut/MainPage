@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Moon Agency | LandingPage dla Twojej firmy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;subset=latin-ext" rel="stylesheet">
+
+
+  <style>
+    .header {
+      position: relative;
+      max-height: 60vh;
+      overflow: hidden;
+    }
+
+    .header img {
+      width: 100%;
+      display: block;
+
+    }
+
+
+
+    .header p {
+      position: absolute;
+      text-align: center;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      color: white;
+      text-shadow: 0 0 3px black;
+      font-size: 40px;
+      width: 100%;
+    }
+
+    .header p {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, .8)
+    }
+
+    section.prop {
+      display: none;
+    }
+
+    @media (max-width: 800px) {
+      .header p {
+        font-size: 18px;
+      }
+
+      section.header {
+        min-height: 50px;
+        max-height: 80vh;
+        overflow: hidden;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+  <div class="logo">
+
+    <h1><a href="index.html">Moon Agency</a></h1>
+
+  </div>
+  <div class="menuIcon">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="mobileH">
+
+    <a class="s1" href="index.html#about">O Agencji</a>
+    <a class="s2" href="index.html#promises">Co nas wyróżnia</a>
+    <a class="s3" href="index.html#contact">Kontakt</a>
+    <a class="s4" href="#">Blog</a>
+
+  </nav>
+  <section class="header">
+    <img src="img/3.jpg">
+    <p>Piszemy pierwszy artykuł na bloga :)<br>Zapraszamy już wkrótce.</p>
+
+
+  </section>
+
+
+<section class="contact" id="contact">
+   <h5 class="elo">Napisz do nas</h5>
+    <section class="forms">
+      <form class="form">
+        <p class="name">
+          <input name="name" type="text" placeholder="Imię i nazwisko" required class="user-input" style="width: 100%;height: 30px;margin-bottom: 20px;margin-top: 50px;font-size: 25px;">
+        </p>
+        <p class="email">
+          <input name="email" type="email" placeholder="Twój adres e-mail" required class="user-input"style="width: 100%;height: 30px;font-size: 25px;">
+        </p>
+        <p class="text">
+          <textarea name="text" type="text" placeholder="Wpisz wiadomość" required class="message-input"></textarea>
+        </p>
+        <div class="submit">
+          <input type="submit" value="WYŚLIJ" id="button">
+        </div>
+      </form>
+
+
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.294354581922!2d21.02266755096731!3d52.23803691474041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc5921c91cc1%3A0x49c7064531dc3f67!2sCarpathia+Office+House%2C+Zaj%C4%99cza+15%2C+Warszawa!5e0!3m2!1spl!2spl!4v1510042065838"  allowfullscreen></iframe>
+        
+
+  </section> 
+    </section>
+   
+
+  <footer>
+    <p>Moon Agency - Warszawa | Tworzymy przyszłość w internecie</p>
+  </footer>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="javascript.js"></script>
+  
+</body>
+
+</html>
